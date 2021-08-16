@@ -124,6 +124,9 @@
     text-transform: uppercase;
     padding: 1.5rem 3rem;
     display: block;
+
+    display: flex;
+    align-items: center;
   }
 
   &_icon {

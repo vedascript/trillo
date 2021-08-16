@@ -152,7 +152,9 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     padding: 1.5rem 3rem;
-    display: block; }
+    display: block;
+    display: flex;
+    align-items: center; }
   .side-nav_icon {
     width: 1.75rem;
     height: 1.75rem;

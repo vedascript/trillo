@@ -65,6 +65,13 @@ body {
   height: 80rem;
   flex: 1; }
 
+.gallery {
+  display: flex;
+  height: 20%; }
+
+.gallery img {
+  width: 100%; }
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem; }
@@ -187,3 +194,9 @@ body {
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem; }
+
+.gallery {
+  display: flex; }
+  .gallery_photo {
+    width: 100%;
+    display: block; }

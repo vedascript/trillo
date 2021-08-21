@@ -84,6 +84,9 @@ body {
   @media only screen and (max-width: 56.25em) {
     .detail {
       padding: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .detail {
+      flex-direction: column; } }
 
 .description {
   background-color: #fff;
@@ -95,6 +98,10 @@ body {
     .description {
       padding: 2rem;
       margin-right: 3rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .description {
+      margin-right: 0;
+      margin-bottom: 3rem; } }
 
 .user-reviews {
   flex: 1;
@@ -227,11 +234,21 @@ body {
       .side-nav_link:link, .side-nav_link:visited {
         justify-content: center;
         padding: 2rem; } }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav_link:link, .side-nav_link:visited {
+        flex-direction: column;
+        padding: 1.5rem 0.5rem; } }
   .side-nav_icon {
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav_icon {
+        margin-right: 0;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 7px; } }
 
 .legal {
   font-size: 1.2rem;
@@ -352,6 +369,8 @@ body {
   align-items: center; }
   .reccomend_count {
     margin-right: auto; }
+  .reccomend_friends {
+    display: flex; }
   .reccomend_photo {
     box-sizing: content-box;
     height: 4rem;
